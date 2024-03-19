@@ -1,0 +1,61 @@
+:root {
+  --background-primary: rgba(20, 3, 5, 0.4);
+  --background-secondary: rgba(20, 3, 5, 0.4);
+  --background-secondary-alt: rgba(20, 3, 5, 0.6);
+  --background-tertiary: rgba(20, 3, 5, 0.5);
+  --channeltextarea-background: rgba(20, 3, 5, 0.7);
+
+  --input-background: rgba(20, 3, 5, 1);
+  --interactive-active: rgb(239, 188, 193);
+  --interactive-hover: rgb(239, 188, 193);
+  --interactive-muted: rgba(218, 144, 151, 0.3);
+  --interactive-normal: rgba(218, 144, 151, 1);
+
+  --bg-overlay-2: rgba(20, 3, 5, 0.4);
+  --brand-experiment: rgb(110, 60, 66);
+  --green-360: rgb(110, 60, 66);
+  --green-430: rgba(218, 144, 151, 1);
+  --channel-icon: rgba(218, 144, 151, 1);
+  --primary-630: rgba(20, 3, 5, 0.94);
+  --primary-600: rgba(20, 3, 5, 0.9);
+
+  --scrollbar-auto-scrollbar-color-thumb: rgba(218, 144, 151, 0.3);
+  --scrollbar-auto-scrollbar-color-track: rgba(20, 3, 5, 0.7);
+
+  --custom-index-scrollbar-width: 10px;
+  --custom-index-scrollbar-margin: 3px;
+  --custom-scrollbar-scrollbar-margin: 3px;
+  --custom-scrollbar-border-radius: 16px;
+
+}
+
+body {
+  background: url("https://img.pikbest.com/ai/illus_our/20230413/54b4dcec106786733fc26619f7e06708.jpg") !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  backdrop-filter: blur(8px);
+  filter: brightness(95%);
+}
+.bg__12180, .appMount_fae9dd {background: unset !important;}
+
+.circleIconButton_d8df29 path {
+  color: rgb(218, 144, 151);
+}
+
+[class*="wordmark"] {
+  pointer-events: unset;
+  padding: 0;
+}
+[class*="wordmark"] svg {
+  display: none;
+}
+:root:has(#vencord-css-core) [class*="wordmark"]::after {
+  position: absolute;
+  top: 4px;
+  padding: 4px 9px 3px;
+  font-size: 9px;
+  letter-spacing: 0.4px;
+  white-space: nowrap;
+  font-family: var(--font-headline);
+  content: "SparrowCord";
+}
