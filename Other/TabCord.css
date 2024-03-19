@@ -1,0 +1,16 @@
+[class*="content_"] {margin-right: 8px;}
+[class*="form_"] {bottom: -2px;}
+[class*="typing_"] {bottom: -8px;}
+.container_b2ce9c {height: calc(100% - 16px);}
+[class*="banner"] {border-radius: 16px 16px 0 0;}
+[class*="userPanelOuter_"], [class*="userProfileInner_"], [class*="applicationStore_"], [class*="shop_"], [class*="shopScroll_"] {border-radius: 16px;}
+[class*="scrollableContainer_"], [class*="floating_"], .container_def45c {border-radius: 16px !important;}
+[class*="searchBarComponent_"] {text-align: center !important;}
+[class*="base_"]:not(.base__92a12):not(.base__76a71), [class*="members_"], [class*="profilePanel_"], .container_b2ce9c, .container__5c7e7, [class*="guilds_"] {
+  margin: 8px 0 !important;
+  border-radius: 16px !important;
+}
+[class*="sidebar_"], [class*="chat_"], [class*="guilds_"] {
+  margin: 0 5px;
+  border-radius: 16px !important;
+}
