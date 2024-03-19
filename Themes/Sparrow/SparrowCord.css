@@ -31,7 +31,7 @@
 }
 
 body {
-  background: url("/sparrow.jpg") !important;
+  background: url("sparrow.jpg") !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
   backdrop-filter: blur(8px);
