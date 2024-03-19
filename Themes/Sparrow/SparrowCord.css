@@ -1,9 +1,10 @@
+@import url('https://raw.githubusercontent.com/ukrioo/cssCord/main/Other/TabCord.css');
 :root {
   --background-primary: rgba(20, 3, 5, 0.4);
   --background-secondary: rgba(20, 3, 5, 0.4);
-  --background-secondary-alt: rgba(20, 3, 5, 0.6);
+  --background-secondary-alt: rgba(20, 3, 5, 0.5);
   --background-tertiary: rgba(20, 3, 5, 0.5);
-  --channeltextarea-background: rgba(20, 3, 5, 0.7);
+  --channeltextarea-background: rgba(20, 3, 5, 0.5);
 
   --input-background: rgba(20, 3, 5, 1);
   --interactive-active: rgb(239, 188, 193);
