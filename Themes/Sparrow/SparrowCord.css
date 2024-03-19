@@ -30,7 +30,7 @@
 }
 
 body {
-  background: url("https://img.pikbest.com/ai/illus_our/20230413/54b4dcec106786733fc26619f7e06708.jpg") !important;
+  background: url("/sparrow.jpg") !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
   backdrop-filter: blur(8px);
