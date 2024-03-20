@@ -93,7 +93,7 @@ body {
   width: 75%;
   height: 75%;
 }
-[class*="childWrapper_"] svg:not([class*="favoriteIcon_"]):hover {color: var(--text-normal); background-color: var(--text-normal);}
+[class*="childWrapper_"]:hover svg:not([class*="favoriteIcon_"]) {color: var(--text-normal); background-color: var(--text-normal);}
 [class*="childWrapper_"] svg:not([class*="favoriteIcon_"]) {transition: transform 1s ease;}
 [class*="childWrapper_"]:hover svg:not([class*="favoriteIcon_"]) {transform: rotate(360deg);}
 
