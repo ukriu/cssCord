@@ -54,7 +54,7 @@
   --header-primary: rgba(248, 205, 209, 0.8);
   --text-link: rgba(247, 79, 96, 0.9);
 }
-
+[class*="userProfileInnerThemedNonPremium_"] {background: rgba(20, 3, 5, 0.9);}
 body {
   background: url("sparrow.jpg") !important;
   background-size: cover !important;
