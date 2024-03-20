@@ -63,7 +63,6 @@ body {
 }
 .bg__12180, .appMount_fae9dd {background: unset !important;}
 
-div [class*="text-sm-normal_"] {color: var(--brand-experiment-500);}
 [class*="circleIconButton_"] path {
   color: rgb(218, 144, 151);
 }
