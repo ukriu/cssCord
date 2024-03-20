@@ -22,13 +22,14 @@
   --interactive-hover: rgba(239, 188, 193, 0.8);
   --interactive-muted: rgba(218, 144, 151, 0.3);
   --interactive-normal: rgba(218, 144, 151, 1);
-  --channels-default: rgba(172, 112, 118, 0.8);
+  
+  --channels-default: rgba(145, 108, 112, 0.8);
+  --channel-icon: rgba(145, 108, 112, 0.8);
 
   --bg-overlay-2: rgba(20, 3, 5, 0.4);
   --brand-experiment: rgb(110, 60, 66);
   --green-360: rgb(110, 60, 66);
   --green-430: rgba(218, 144, 151, 1);
-  --channel-icon: rgba(218, 144, 151, 1);
   --primary-630: rgba(20, 3, 5, 0.94);
   --primary-600: rgba(20, 3, 5, 0.9);
   --primary-700: rgba(28, 5, 7, 0.7);
@@ -43,6 +44,7 @@
   --custom-scrollbar-scrollbar-margin: 3px;
   --custom-scrollbar-border-radius: 16px;
 
+  --status-danger: rgba(239, 90, 105, 0.6);
   --button-secondary-background: rgba(218, 144, 151, 0.3);
   --button-danger-background: rgba(247, 79, 96, 0.9);
   --button-outline-danger-border: rgba(247, 79, 96, 0.9);
