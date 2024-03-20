@@ -15,3 +15,11 @@
   margin: 0 5px;
   border-radius: 16px !important;
 }
+/* button for the readall plugin */
+.button_afdfd9 {
+  border-radius: 16px;
+  left: 50;
+  right: 50;
+  padding: 5px;
+  font-size: 75%;
+}
