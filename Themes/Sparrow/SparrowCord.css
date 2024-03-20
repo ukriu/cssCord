@@ -98,4 +98,4 @@ body {
 [class*="childWrapper_"] svg:not([class*="favoriteIcon_"]) {transition: transform 1s ease;}
 [class*="childWrapper_"]:hover svg:not([class*="favoriteIcon_"]) {transform: rotate(360deg);}
 
-/* IT ISNT UPDATING */
+/* IT ISNT UPDATING again*/
