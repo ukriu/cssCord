@@ -3,6 +3,7 @@
 [class*="typing_"] {bottom: -8px;}
 .container_b2ce9c {height: calc(100% - 16px);}
 [class*="banner"] {border-radius: 16px 16px 0 0;}
+[class*="mentioned"] {border-radius: 0 16px 16px 0;}
 [class*="userPanelOuter_"], [class*="userProfileInner_"], [class*="applicationStore_"], [class*="shop_"], [class*="shopScroll_"], [class*="pageWrapper_fef757"], [class*="userProfileOuter_"] {border-radius: 16px;}
 [class*="scrollableContainer_"], [class*="floating_"], .container_def45c {border-radius: 16px !important;}
 [class*="searchBarComponent_"] {text-align: center !important;}
