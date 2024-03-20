@@ -1,3 +1,5 @@
+@import url(https://raw.githubusercontent.com/ukrioo/cssCord/main/Other/TabCord.css);
+
 * {
   scrollbar-width: unset !important;
   scrollbar-color: unset !important;
@@ -5,7 +7,6 @@
 ::-webkit-scrollbar-thumb {background:rgb(218, 144, 151, 0.3) !important;}
 ::-webkit-scrollbar-track {background: rgba(20, 3, 5, 0.7) !important;}
 
-@import url('https://raw.githubusercontent.com/ukrioo/cssCord/main/Other/TabCord.css');
 :root {
   --background-primary: rgba(20, 3, 5, 0.4);
   --background-secondary: rgba(20, 3, 5, 0.4);
