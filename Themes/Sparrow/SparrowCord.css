@@ -14,7 +14,7 @@
   --background-tertiary: rgba(20, 3, 5, 0.5);
   --channeltextarea-background: rgba(20, 3, 5, 0.5);
   --background-mentioned: rgba(44, 13, 15, 0.5);
-  --background-mentioned-hover: rgba(44, 13, 15, 0.9);;
+  --background-mentioned-hover: rgba(44, 13, 15, 0.9);
   --background-accent: rgba(44, 13, 15, 0.9);
   --info-warning-foreground: rgba(114, 34, 41, 0.5);
   --home-background: rgba(20, 3, 5, 0.4);
@@ -22,6 +22,7 @@
   --background-message-highlight: rgba(44, 13, 15, 0.9);
   --background-message-highlight-hover: rgba(44, 13, 15, 0.9);
   --background-message-hover: rgba(44, 13, 15, 0.2);
+  --background-modifier-selected: rgba(44, 13, 15, 0.9);
   
   --input-background: rgba(20, 3, 5, 1);
   --interactive-active: rgba(239, 188, 193, 0.7);
@@ -107,4 +108,6 @@ body {
 [class*="childWrapper_"] svg:not([class*="favoriteIcon_"]) {transition: transform 1s ease;}
 [class*="childWrapper_"]:hover svg:not([class*="favoriteIcon_"]) {transform: rotate(360deg);}
 
-/* IT ISNT UPDATING again*/
+/* Checkboxes */
+[class*="container_"][class*="checked_"], [class*="container_"][class*="checked_"] svg path {background-color: var(--interactive-normal) !important; fill: var(--interactive-normal) !important;}
+.container__871ba:has(.slider__41d94):not([class*="checked_"]) {background-color: var(--interactive-muted) !important; fill: var(--interactive-muted) !important;}
