@@ -32,6 +32,8 @@
   --primary-630: rgba(20, 3, 5, 0.94);
   --primary-600: rgba(20, 3, 5, 0.9);
   --primary-700: rgba(28, 5, 7, 0.7);
+  --primary-800: rgba(44, 13, 15, 0.9);
+  --brand-experiment-500: rgba(218, 144, 151, 1);
 
   --scrollbar-auto-scrollbar-color-thumb: rgba(218, 144, 151, 0.3);
   --scrollbar-auto-scrollbar-color-track: rgba(20, 3, 5, 0.7);
@@ -59,6 +61,7 @@ body {
 }
 .bg__12180, .appMount_fae9dd {background: unset !important;}
 
+div [class*="text-sm-normal_"] {color: var(--brand-experiment-500);}
 [class*="circleIconButton_"] path {
   color: rgb(218, 144, 151);
 }
