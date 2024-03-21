@@ -1,4 +1,4 @@
-@import url(https://raw.githubusercontent.com/ukrioo/cssCord/main/Other/TabCord.css);
+@import url("https://raw.githubusercontent.com/ukrioo/cssCord/main/Other/TabCord.css");
 
 * {
   scrollbar-width: unset !important;
@@ -24,6 +24,8 @@
   --background-message-hover: rgba(44, 13, 15, 0.2);
   --background-modifier-selected: rgba(44, 13, 15, 0.9);
   --background-modifier-hover:  rgba(44, 13, 15, 0.4);
+  --it-likes-to-not-work: var(--background-modifier-selected);
+  --it-likes-to-not-work-2: var(--background-modifier-hover);
   
   --input-background: rgba(20, 3, 5, 1);
   --interactive-active: rgba(239, 188, 193, 0.7);
@@ -66,6 +68,14 @@
   --header-primary: rgba(248, 205, 209, 0.8);
   --text-link: rgba(247, 79, 96, 0.9);
 }
+
+.topPill__0cdf1 .themed_b957e8.selected__5711d.item__48dda, .side_b4b3f6 .themed_b957e8.selected__5711d.item__48dda {
+    background-color: var(--it-likes-to-not-work) !important;
+}
+.topPill__0cdf1 .themed_b957e8.item__48dda:hover:not(.disabled__85bca), .side_b4b3f6 .themed_b957e8.item__48dda:hover:not(.disabled__85bca) {
+    background-color: var(--it-likes-to-not-work-2) !important;
+}
+
 [class*="userProfileInnerThemedNonPremium_"] {background: rgba(20, 3, 5, 0.9);}
 body {
   background: url("sparrow.jpg") !important;
