@@ -7,7 +7,7 @@
 [class*="userPanelOuter_"], [class*="userProfileInner_"], [class*="applicationStore_"], [class*="shop_"], [class*="shopScroll_"], [class*="pageWrapper_fef757"], [class*="userProfileOuter_"], [class*="userPopoutInner_"]:before {border-radius: 16px;}
 [class*="scrollableContainer_"], [class*="floating_"], .container_def45c {border-radius: 16px !important;}
 [class*="searchBarComponent_"] {text-align: center !important;}
-[class*="base_"]:not(.base__92a12):not(.base__76a71), [class*="members_"], [class*="profilePanel_"], .container_b2ce9c, .container__5c7e7, [class*="guilds_"] {
+[class*="base_"]:not(:is(.base__92a12, .base__76a71)), [class*="members_"], [class*="profilePanel_"], .container_b2ce9c, .container__5c7e7, [class*="guilds_"] {
   margin: 8px 0 !important;
   border-radius: 16px !important;
 }
@@ -15,11 +15,9 @@
   margin: 0 5px;
   border-radius: 16px !important;
 }
-/* button for the readall plugin */
-.button_afdfd9 {
-  border-radius: 16px;
-  left: 50;
-  right: 50;
-  padding: 5px;
-  font-size: 75%;
+.webkit__8d35a .buttons_ce5b56 {
+  margin-right: 0px;
+}
+[class*="attachButton_"] {
+  margin-left: -20px;
 }
