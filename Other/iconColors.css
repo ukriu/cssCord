@@ -1,6 +1,8 @@
 :root {
     --icon-normal: black;
     --icon-hover: white;
+    --icon-muted: grey;
+    --interactive-muted: var(--icon-muted);
 }
 [class*="iconWrapper_"] svg:is([class*="icon_"]) {
     color: var(--icon-normal);
