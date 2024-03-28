@@ -1,0 +1,23 @@
+:root {
+    --icon-normal: black;
+    --icon-hover: white;
+}
+[class*="iconWrapper_"] svg:is([class*="icon_"]) {
+    color: var(--icon-normal);
+}
+div:is([class*="lottieIcon_"]) svg {
+    color: var(--icon-normal);
+}
+div:is([class*="lottieIcon_"]):hover svg:hover {
+    transition: color 0.5s ease;
+    color: var(--icon-hover);
+}
+button:is([class*="emojiButton_"]) div:is([class*="spriteGreyscale_"]) {
+    background-color: var(--icon-normal);
+}
+[aria-label="Vencord Toolbox"] svg {
+    color: var(--icon-normal);
+}
+[aria-label="Vencord Toolbox"] svg:hover {
+    color: var(--icon-hover);
+}
