@@ -5,6 +5,9 @@
 [class*="iconWrapper_"] svg:is([class*="icon_"]) {
     color: var(--icon-normal);
 }
+[class*="iconWrapper_"]:hover svg:is([class*="icon_"]):hover {
+    color: var(--icon-hover);
+}
 div:is([class*="lottieIcon_"]) svg {
     color: var(--icon-normal);
 }
