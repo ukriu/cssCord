@@ -16,7 +16,7 @@
   margin: 0 5px;
   border-radius: 16px !important;
 }
-.mention {
+.mention, .channelMention {
   border-radius: 8px;
 }
 /* message bar buttons */
