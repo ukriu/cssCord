@@ -8,13 +8,14 @@
     color: var(--icon-normal);
 }
 [class*="iconWrapper_"]:hover svg:is([class*="icon_"]):hover {
+    transition: color 0.3s ease;
     color: var(--icon-hover);
 }
 div:is([class*="lottieIcon_"]) svg {
     color: var(--icon-normal);
 }
 div:is([class*="lottieIcon_"]):hover svg:hover {
-    transition: color 0.5s ease;
+    transition: color 0.3s ease;
     color: var(--icon-hover);
 }
 button:is([class*="emojiButton_"]) div:is([class*="spriteGreyscale_"]) {
