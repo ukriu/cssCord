@@ -1,4 +1,5 @@
-@import url("https://raw.githubusercontent.com/ukrioo/cssCord/main/Other/TabCord.css");
+@import url("https://ukrioo.github.io/cssCord/Other/TabCord.css");
+@import url("https://ukrioo.github.io/cssCord/Other/emojiOnPopout.css");
 
 * {
   scrollbar-width: unset !important;
