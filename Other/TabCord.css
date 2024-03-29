@@ -1,8 +1,4 @@
-button[aria-label^="Send a gift"] {
-    display: none;
-}
-
-[class*="content_"] {margin-right: 8px;}
+[class*="content_"]:not(:is(.content_da5e31)) {margin-right: 8px;}
 [class*="form_"] {bottom: -2px;}
 [class*="typing_"] {bottom: -8px;}
 /* Member List */
@@ -12,7 +8,7 @@ button[aria-label^="Send a gift"] {
 [class*="userPanelOuter_"], [class*="userProfileInner_"], [class*="userPanelInner_"]::before, [class*="applicationStore_"], [class*="shop_"], [class*="shopScroll_"], [class*="pageWrapper_fef757"], [class*="userProfileOuter_"], [class*="userPopoutInner_"]:before {border-radius: 16px;}
 [class*="scrollableContainer_"], [class*="floating_"], .container_def45c {border-radius: 16px !important;}
 [class*="searchBarComponent_"] {text-align: center !important;}
-[class*="base_"]:not(:is(.base__92a12, .base__76a71, .base__87e58, .numberBadge__40d6f, .iconBadge__19638)), [class*="members_"], [class*="profilePanel_"], .container_b2ce9c, .container__5c7e7, [class*="guilds_"] {
+[class*="base_"]:not(:is(.base__87e58, .numberBadge__40d6f, .iconBadge__19638)), [class*="members_"], [class*="profilePanel_"], .container_b2ce9c, .container__5c7e7, [class*="guilds_"] {
   margin: 8px 0 !important;
   border-radius: 16px !important;
 }
