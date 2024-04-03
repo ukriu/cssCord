@@ -49,8 +49,8 @@ div[class*="menu_"][role*="menu"] {
 }
 /* Server list */
 [class*="guilds_"] {
-    margin-left: 8px !important;
-    margin-right: 8px !important;
+    margin: 8px !important;
+    border-radius: 16px;
 }
 /* Scroll bar */
 * {
