@@ -6,7 +6,7 @@
 [class*="userPanelOuter_"], [class*="userProfileInner_"], [class*="userPanelInner_"]::before, [class*="applicationStore_"], [class*="shop_"], [class*="shopScroll_"], [class*="pageWrapper_fef757"], [class*="userProfileOuter_"], [class*="userPopoutInner_"]:before {border-radius: 16px;}
 [class*="scrollableContainer_"], [class*="floating_"], .container_def45c {border-radius: 16px !important;}
 [class*="searchBarComponent_"] {text-align: center !important;}
-[class*="base_"]:not(:is(.base__87e58, .numberBadge__40d6f, .iconBadge__19638)), [class*="profilePanel_"], .container_b2ce9c, .container__5c7e7, [class*="guilds_"] {
+[class*="base_"]:not(:is(.base__87e58, .numberBadge__40d6f, .iconBadge__19638)), [class*="profilePanel_"], .container_b2ce9c, .container__5c7e7 {
   margin: 8px 0 !important;
   border-radius: 16px !important;
 }
@@ -46,6 +46,11 @@ div[class*="menu_"][role*="menu"] {
     border-radius: 16px;
     padding-left: 6px;
     padding-right: 6px;
+}
+/* Server list */
+[class*="guilds_"] {
+    margin-left: 8px !important;
+    margin-right: 8px !important;
 }
 /* Scroll bar */
 * {
