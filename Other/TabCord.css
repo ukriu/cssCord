@@ -10,7 +10,7 @@
   margin: 8px 0 !important;
   border-radius: 16px !important;
 }
-[class*="sidebar_"], [class*="chat_"]{
+[class*="sidebar_"], [class*="chat_"] {
   margin: 0 5px;
   border-radius: 16px !important;
 }
