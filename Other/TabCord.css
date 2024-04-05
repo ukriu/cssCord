@@ -37,7 +37,7 @@ div[class*="menu_"][role*="menu"] {
 }
 /* dialog popout (eg: leave server) & checkboxes */
 [class*="checkbox_"], [class*="item_"] {border-radius: 8px;}
-[class*="button_"], [class*="menu_"], [role*="dialog"] * {border-radius: 16px;}
+[class*="button_"], [class*="menu_"] {border-radius: 16px;}
 /* Member List */
 .container_f79ab4 {height: calc(100% - 16px); border-radius: 16px; margin-top: 4px;}
 [class*="members_"] {margin-left: 4px !important;}
