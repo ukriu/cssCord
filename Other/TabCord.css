@@ -3,7 +3,7 @@
 [class*="typing_"] {bottom: -8px;}
 [class*="banner"] {border-radius: 16px 16px 0 0;}
 [class*="mentioned"] {border-radius: 0 16px 16px 0;}
-[class^="userPanel"], [class^="userProfile"], [class^="userPopout"], .root_ba16f0, [class*="applicationStore_"], [class*="shop_"], [class*="shopScroll_"], [class*="pageWrapper_fef757"] {border-radius: 16px;}
+[class^="userPanel"], [class^="userProfile"], [class^="userPopout"], [class^="userPopout"]::before, .root_ba16f0, [class*="applicationStore_"], [class*="shop_"], [class*="shopScroll_"], [class*="pageWrapper_fef757"] {border-radius: 16px;}
 [class*="scrollableContainer_"], [class*="floating_"], .container_def45c {border-radius: 16px !important;}
 [class*="searchBarComponent_"] {text-align: center !important;}
 [class*="base_"]:not(:is(.base__87e58, .numberBadge__40d6f, .iconBadge__19638)), [class*="profilePanel_"], .container_b2ce9c, .container__5c7e7, [class*="guilds_"] {
