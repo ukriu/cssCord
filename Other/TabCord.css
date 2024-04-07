@@ -39,7 +39,8 @@ div[class*="menu_"][role*="menu"] {
 [class*="checkbox_"], [class*="item_"]:not(:is(.item__48dda)) {border-radius: 8px;}
 [class*="button_"], [class*="menu_"] {border-radius: 16px;}
 /* Member List */
-.container_f79ab4 {height: calc(100% - 16px); border-radius: 16px; margin-top: 4px;}
+[class*="member"] {border-radius: 16px;}
+[class*="membersWrap_"] {height: calc(100% - 16px); border-radius: 16px; margin-top: 4px;}
 [class*="members_"] {margin-left: 4px !important;}
 /* Button bar on message hover */
 .wrapper__4e6b6 {
