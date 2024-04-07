@@ -10,7 +10,7 @@
   margin: 8px 0 !important;
   border-radius: 16px !important;
 }
-[class*="sidebar_"], [class*="chat_"], [class*="guilds_"] {
+[class*="sidebar_"], [class*="chat_"], [class*="guilds_"], .container_bd15da {
   margin: 0 5px;
   border-radius: 16px !important;
 }
@@ -52,5 +52,3 @@ div[class*="menu_"][role*="menu"] {
   scrollbar-width: unset !important;
   scrollbar-color: unset !important;
 }
-
-/* e */
