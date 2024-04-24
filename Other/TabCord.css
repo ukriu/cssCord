@@ -54,3 +54,16 @@ div[class*="menu_"][role*="menu"] {
   scrollbar-width: unset !important;
   scrollbar-color: unset !important;
 }
+/* Notice bar which pops up on the top to annoy everyone, (includes nitro notices, billing details, and the relationship plugin) */
+.notice__5fd4c {
+    border-radius: 16px;
+    line-height: 28px;
+    margin: 0px 12px 5px 4px;
+}
+.closeButton__90904 {
+    top: -4px;
+}
+.button__33db6 {
+    height: 22px;
+    top: 3px;
+}
