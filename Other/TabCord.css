@@ -1,4 +1,4 @@
-[class*="content_"]:not(:is(.content_da5e31)) {margin-right: 8px;}
+[class*="content_"]:not(:is(.content_da5e31, .content__690c5)) {margin-right: 8px;}
 [class*="form_"] {bottom: -2px;}
 [class*="typing_"] {bottom: -8px;}
 [class*="banner"] {border-radius: 16px 16px 0 0;}
