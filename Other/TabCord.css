@@ -7,11 +7,11 @@
 [class*="scrollableContainer_"], [class*="floating_"], .container_def45c, .container__694a1 {border-radius: 16px !important;}
 [class*="searchBarComponent_"] {text-align: center !important;}
 [class*="base_"]:not(:is(.base__87e58, .numberBadge__40d6f, .iconBadge__19638)), [class*="profilePanel_"], .container_b2ce9c, .container__5c7e7, [class*="guilds_"] {
-  margin: 8px 0 !important;
+  margin: 12px 0 !important;
   border-radius: 16px !important;
 }
 [class*="sidebar_"], [class*="chat_"], [class*="guilds_"], .container_bd15da  {
-  margin: 0 5px;
+  margin: 0 6px;
   border-radius: 16px !important;
 }
 .mention, .channelMention, .wrapper__53064 {
