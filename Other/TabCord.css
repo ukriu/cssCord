@@ -3,13 +3,14 @@
 [class*="typing_"] {bottom: -10px;}
 [class*="banner"] {border-radius: 16px 16px 0 0;}
 [class*="mentioned"] {border-radius: 0 16px 16px 0;}
-[class^="userPanel"], [class^="userPanel"]::before, [class^="userProfile"], [class^="userProfile"]::before, [class^="userPopout"], [class^="userPopout"]::before, .root_ba16f0, [class*="applicationStore_"], [class*="shop_"], [class*="shopScroll_"], [class*="pageWrapper_fef757"] {border-radius: 16px;}
-[class*="scrollableContainer_"], [class*="floating_"], .container_def45c, .container__694a1 {border-radius: 16px !important;}
+[class^="userPanel"], [class^="userPanel"]::before, [class^="userProfile"], [class^="userProfile"]::before, [class^="userPopout"], [class^="userPopout"]::before, .root_ba16f0, [class*="applicationStore_"], [class*="shop_"], [class*="shopScroll_"], [class*="pageWrapper_c182d3"] {border-radius: 16px;}
+[class*="scrollableContainer_"], [class*="floating_"], .container__694a1, .container_bd15da {border-radius: 16px !important;}
 [class*="searchBarComponent_"] {text-align: center !important;}
-[class*="base_"]:not(:is(.base__87e58, .numberBadge__40d6f, .iconBadge__19638)), [class*="profilePanel_"], .container_b2ce9c, .container__5c7e7, [class*="guilds_"] {
+[class*="base_"]:not(:is(.base__87e58, .numberBadge__40d6f, .iconBadge__19638)), [class*="profilePanel_"], .container_f79ab4 {
   margin: 12px 0 !important;
   border-radius: 16px !important;
 }
+[class*="guilds_"] {margin: 4px 0 !important;}
 [class*="sidebar_"], [class*="chat_"], [class*="guilds_"], .container_bd15da  {
   margin: 0 6px;
   border-radius: 16px !important;
