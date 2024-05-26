@@ -1,0 +1,72 @@
+[class*="content_"]:not(:is(.content_da5e31, .content__690c5)) {margin-right: 8px;}
+[class*="form_"] {bottom: -2px;}
+[class*="typing_"] {bottom: -10px;}
+[class*="banner"] {border-radius: 16px 16px 0 0;}
+[class*="mentioned"] {border-radius: 0 16px 16px 0;}
+[class^="userPanel"], [class^="userPanel"]::before, [class^="userProfile"], [class^="userProfile"]::before, [class^="userPopout"], [class^="userPopout"]::before, .root_ba16f0, [class*="applicationStore_"], [class*="shop_"], [class*="shopScroll_"], [class*="pageWrapper_fef757"] {border-radius: 16px;}
+[class*="scrollableContainer_"], [class*="floating_"], .container_def45c, .container__694a1 {border-radius: 16px !important;}
+[class*="searchBarComponent_"] {text-align: center !important;}
+[class*="base_"]:not(:is(.base__87e58, .numberBadge__40d6f, .iconBadge__19638)), [class*="profilePanel_"], .container_b2ce9c, .container__5c7e7, [class*="guilds_"] {
+  margin: 12px 0 !important;
+  border-radius: 16px !important;
+}
+[class*="sidebar_"], [class*="chat_"], [class*="guilds_"], .container_bd15da  {
+  margin: 0 6px;
+  border-radius: 16px !important;
+}
+.mention, .channelMention, .wrapper__53064 {
+  border-radius: 8px !important;
+}
+a[href*="/channels/"] {
+    border-radius: 10px;
+}
+div[class*="menu_"][role*="menu"] {
+    border-radius: 16px;
+}
+/* message bar & msg bar buttons */
+.channelTextArea__648e5 {border-radius: 16px;}
+.webkit__8d35a .buttons__7ecff {
+  margin-right: 0px;
+}
+[class*="attachButton_"] {
+  margin-left: -20px;
+}
+/* Right-click popout */
+[class*="menu_"] [class*="scroller_"] {
+    overflow: hidden !important;
+    margin-right: 8px;
+}
+/* dialog popout (eg: leave server) & checkboxes */
+[class*="checkbox_"], [class*="item_"]:not(:is(.item__48dda)) {border-radius: 8px;}
+[class*="button_"], [class*="menu_"] {border-radius: 16px;}
+/* Member List */
+[class*="member"] {border-radius: 16px;}
+[class*="membersWrap_"] {height: calc(100% - 16px); border-radius: 16px; margin-top: 4px;}
+[class*="members_"] {margin-left: 4px !important;}
+/* Button bar on message hover */
+.wrapper__4e6b6 {
+    border-radius: 16px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+/* Scroll bar */
+* {
+  scrollbar-width: unset !important;
+  scrollbar-color: unset !important;
+}
+/* Notice bar which pops up on the top to annoy everyone, (includes nitro notices, billing details, and the relationship plugin) */
+.notice__5fd4c {
+    border-radius: 16px;
+    line-height: 28px;
+    margin: 0px 12px 5px 4px;
+}
+.closeButton__90904 {
+    top: -4px;
+}
+.button__33db6 {
+    height: 22px;
+    top: 3px;
+}
+/* quick fix for profiles in dms (which are in place of memberlist) 
+[class*="banner_"] {width: 70.8%;}
+*/
