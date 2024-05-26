@@ -67,5 +67,6 @@ div[class*="menu_"][role*="menu"] {
     height: 22px;
     top: 3px;
 }
-/* quick fix for profiles in dms (which are in place of memberlist) */
+/* quick fix for profiles in dms (which are in place of memberlist) 
 [class*="banner_"] {width: 70.8%;}
+*/
