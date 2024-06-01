@@ -67,5 +67,3 @@ div[class*="menu_"][role*="menu"] {
     height: 22px;
     top: 3px;
 }
-/* quick fix for profiles in dms (which are in place of memberlist) */
-div[class*="userPanel"] > div[class*="none_"][class*="scrollerBase_"] > div > svg[class*="bannerSVGWrapper_"] > foreignObject:has([class*="banner"]) {width: 70.8%}
