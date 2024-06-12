@@ -6,7 +6,7 @@
 [class^="userPanel"], [class^="userPanel"]::before, [class^="userProfile"], [class^="userProfile"]::before, [class^="userPopout"], [class^="userPopout"]::before, .root_ba16f0, [class*="applicationStore_"], [class*="shop_"], [class*="shopScroll_"], [class*="pageWrapper_c182d3"] {border-radius: 16px;}
 [class*="scrollableContainer_"], [class*="floating_"], .container__694a1, .container_bd15da {border-radius: 16px !important;}
 [class*="searchBarComponent_"] {text-align: center !important;}
-[class*="base_"]:not(:is(.base__87e58, .numberBadge__40d6f, .iconBadge__19638)), [class*="profilePanel_"], .container_f79ab4 {
+[class*="base_"]:not(:is(.base__87e58, [class*="numberBadge_"], [class*="iconBadge_"])), [class*="profilePanel_"], .container_f79ab4 {
   margin: 12px 0 !important;
   border-radius: 16px !important;
 }
@@ -68,4 +68,3 @@ div[class*="menu_"][role*="menu"] {
     height: 22px;
     top: 3px;
 }
-
