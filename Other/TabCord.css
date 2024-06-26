@@ -63,8 +63,17 @@ div[class*="menu_"][role*="menu"] {
 [class*="button_"], [class*="menu_"] {border-radius: 16px;}
 /* Member List */
 [class*="member"] {border-radius: 16px;}
-[class*="membersWrap_"] {height: calc(100% - 16px); border-radius: 16px; margin-top: 4px;}
+[class*="membersWrap_"] {
+    height: 96%;
+    border-radius: 16px;
+    top: 1%;
+}
 [class*="members_"] {margin-left: 4px !important;}
+/* User Profile on the sidebar */
+div[class*="userPanelOuter"] {
+    height: 96%;
+    top: 1.5%;
+}
 /* Button bar on message hover */
 .wrapper_ef319f {
     border-radius: 16px;
