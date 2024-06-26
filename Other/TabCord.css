@@ -1,21 +1,42 @@
-[class*="content_"]:not(:is(.content_da5e31, .content__690c5)) {margin-right: 8px;}
+[class*="content_"]:not(:is(.content_acadc1, .content_eed6a8)) {margin-right: 8px;}
 [class*="form_"] {bottom: -2px;}
 [class*="typing_"] {bottom: -10px;}
 [class*="banner"] {border-radius: 16px 16px 0 0;}
 [class*="mentioned"] {border-radius: 0 16px 16px 0;}
-[class^="userPanel"], [class^="userPanel"]::before, [class^="userProfile"], [class^="userProfile"]::before, [class^="userPopout"], [class^="userPopout"]::before, .root_ba16f0, [class*="applicationStore_"], [class*="shop_"], [class*="shopScroll_"], [class*="pageWrapper_c182d3"] {border-radius: 16px;}
-[class*="scrollableContainer_"], [class*="floating_"], .container__694a1, .container_bd15da {border-radius: 16px !important;}
+
+[class^="userPanel"], 
+[class^="userPanel"]::before, 
+[class^="userProfile"], 
+[class^="userProfile"]::before,
+[class^="userPopout"], 
+[class^="userPopout"]::before, 
+.root_b9fccc, 
+[class*="applicationStore_"], 
+[class*="shop_"], 
+[class*="shopScroll_"], 
+[class*="pageWrapper_a3a4ce"], 
+[class*="root"]:has([class*="userProfileOuter_"]) {
+    border-radius: 16px;
+}
+
+[class*="scrollableContainer_"], 
+[class*="floating_"], 
+.container_d1c246, 
+.container_c2739c {
+    border-radius: 16px !important;
+}
+
 [class*="searchBarComponent_"] {text-align: center !important;}
-[class*="base_"]:not(:is(.base__87e58, [class*="numberBadge_"], [class*="iconBadge_"])), [class*="profilePanel_"], .container_f79ab4 {
+[class*="base_"]:not(:is(.base_f23da8, [class*="numberBadge_"], [class*="iconBadge_"])), [class*="profilePanel_"], .container_cbd271 {
   margin: 12px 0 !important;
   border-radius: 16px !important;
 }
 [class*="guilds_"] {margin: 4px 0 !important;}
-[class*="sidebar_"], [class*="chat_"], [class*="guilds_"], .container_bd15da  {
+[class*="sidebar_"], [class*="chat_"], [class*="guilds_"], .container_c2739c  {
   margin: 0 6px;
   border-radius: 16px !important;
 }
-.mention, .channelMention, .wrapper__53064 {
+.mention, .channelMention, .wrapper_a7c28c {
   border-radius: 8px !important;
 }
 a[href*="/channels/"] {
@@ -25,8 +46,8 @@ div[class*="menu_"][role*="menu"] {
     border-radius: 16px;
 }
 /* message bar & msg bar buttons */
-.channelTextArea__648e5 {border-radius: 16px;}
-.webkit__8d35a .buttons__7ecff {
+.channelTextArea_d0696b {border-radius: 16px;}
+.webkit__8d35a .buttons_d0696b {
   margin-right: 0px;
 }
 [class*="attachButton_"] {
@@ -38,14 +59,14 @@ div[class*="menu_"][role*="menu"] {
     margin-right: 8px;
 }
 /* dialog popout (eg: leave server) & checkboxes */
-[class*="checkbox_"], [class*="item_"]:not(:is(.item__48dda)) {border-radius: 8px;}
+[class*="checkbox_"], [class*="item_"]:not(:is(.item_a0)) {border-radius: 8px;}
 [class*="button_"], [class*="menu_"] {border-radius: 16px;}
 /* Member List */
 [class*="member"] {border-radius: 16px;}
 [class*="membersWrap_"] {height: calc(100% - 16px); border-radius: 16px; margin-top: 4px;}
 [class*="members_"] {margin-left: 4px !important;}
 /* Button bar on message hover */
-.wrapper__4e6b6 {
+.wrapper_ef319f {
     border-radius: 16px;
     padding-left: 6px;
     padding-right: 6px;
