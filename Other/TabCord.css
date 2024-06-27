@@ -4,12 +4,12 @@
 [class*="banner"] {border-radius: 16px 16px 0 0;}
 [class*="mentioned"] {border-radius: 0 16px 16px 0;}
 
-[class^="userPanel"], 
-[class^="userPanel"]::before, 
-[class^="userProfile"], 
-[class^="userProfile"]::before,
-[class^="userPopout"], 
-[class^="userPopout"]::before, 
+[class*="userPanel"], 
+[class*="userPanel"]::before, 
+[class*="userProfile"], 
+[class*="userProfile"]::before,
+[class*="userPopout"], 
+[class*="userPopout"]::before, 
 .root_b9fccc, 
 [class*="applicationStore_"], 
 [class*="shop_"], 
