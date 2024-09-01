@@ -27,7 +27,7 @@
 }
 
 [class*="searchBarComponent_"] {text-align: center !important;}
-[class*="base_"]:not(:is(.base_f23da8, [class*="numberBadge_"], [class*="iconBadge_"])), [class*="profilePanel_"], .container_cbd271 {
+[class*="base_"]:not(:is(.base_f23da8, [class*="numberBadge_"], [class*="iconBadge_"], .base_bcc24e)), [class*="profilePanel_"], .container_cbd271 {
   margin: 12px 0 !important;
   border-radius: 16px !important;
 }
