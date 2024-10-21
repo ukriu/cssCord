@@ -1,0 +1,23 @@
+:root {
+    --gDM-online: linear-gradient(to right, rgb(68, 105, 68) , transparent);
+    --gDM-offline: linear-gradient(to right, rgb(66, 66, 66) , transparent);
+    --gDM-dnd: linear-gradient(to right, rgb(130,70,70) , transparent);
+    --gDM-idle: linear-gradient(to right, rgb(135, 105, 75) , transparent);
+    --gDM-streaming: linear-gradient(to right, rgb(63, 33, 88) , transparent);
+}
+
+[class^="link_"]:has([mask*="online"]), [class^="memberInner"]:has([mask*="online"]) {
+    background: var(--gDM-online);
+}
+[class^="link_"]:has([mask*="offline"]), [class^="memberInner"]:has([mask*="offline"]) {
+    background: var(--gDM-offline);
+}
+[class^="link_"]:has([mask*="dnd"]),[class^="memberInner"]:has([mask*="dnd"]) {
+    background: var(--gDM-dnd);
+}
+[class^="link_"]:has([mask*="idle"]), [class^="memberInner"]:has([mask*="idle"]) {
+    background: var(--gDM-idle);
+}
+[class^="link_"]:has([mask*="streaming"]), [class^="memberInner"]:has([mask*="streaming"]) {
+    background: var(--gDM-streaming);
+}
