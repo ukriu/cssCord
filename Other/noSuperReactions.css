@@ -1,11 +1,1 @@
-/* mask super Reactions */
-[class*="reaction"][class*="reactionMe"] {background-color: var(--message-reacted-background) !important; border-color: var(--blurple-50) !important;}
-[class*="reactionCount"] {color: var(--text-subtle) !important;}
-[class*="effectsWrapper"] {display: none;}
-[class^="burstGlow"], [class*="reaction_"], .full-motion [class*="reaction"][class*="shakeReaction"] {
-    box-shadow: none !important; 
-    background: var(--background-secondary) !important;
-    animation: none !important;
-    animation-iteration-count: 0 !important;
-}
-[class*="hideEmoji"] {opacity: 1;}
+[class*=reaction][class*=reactionMe]{background-color:var(--message-reacted-background)!important;border-color:var(--blurple-50)!important}[class*=reactionCount]{color:var(--text-subtle)!important}[class*=effectsWrapper]{display:none}.full-motion [class*=reaction][class*=shakeReaction],[class*=reaction_],[class^=burstGlow]{box-shadow:none!important;background:var(--background-secondary)!important;animation:none!important;animation-iteration-count:0!important}[class*=hideEmoji]{opacity:1}

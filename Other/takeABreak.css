@@ -1,6 +1,1 @@
-div[role="textbox"][class*="editor_"], [class*="uploadInput_"], [class*="attachWrapper_"], .buttons_ce5b56 {
-    display: none !important;
-}
-div[class*="slateTextArea_"]::after {
-    content: '? No, you\'re now taking a break. Touch grass man.' !important;
-}
+.buttons_ce5b56,[class*=attachWrapper_],[class*=uploadInput_],div[role=textbox][class*=editor_]{display:none!important}div[class*=slateTextArea_]::after{content:'? No, you\'re now taking a break. Touch grass man.'!important}

@@ -1,11 +1,1 @@
-[class*=timestampInline], [class*=timestampVisibleOnHover] {
-  opacity: 0;
-  transition: 0.2s opacity ease-in-out;
-}
-
-div.shc-lock-screen-container > div[class*="defaultColor_"][class*="text-md-normal_"]:hover span[class*="timestamp_"],
-div.vc-rdb-review:hover span[class*="timestamp_"],
-[role="article"]:hover [class*=timestampInline],
-[role="article"]:hover [class*=timestampVisibleOnHover] {
-  opacity: 1;
-}
+[class*=timestampInline],[class*=timestampVisibleOnHover]{opacity:0;transition:.2s opacity ease-in-out}[role=article]:hover [class*=timestampInline],[role=article]:hover [class*=timestampVisibleOnHover],div.shc-lock-screen-container>div[class*=defaultColor_][class*=text-md-normal_]:hover span[class*=timestamp_],div.vc-rdb-review:hover span[class*=timestamp_]{opacity:1}
